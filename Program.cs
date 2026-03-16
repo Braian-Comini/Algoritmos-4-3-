@@ -29,7 +29,7 @@ class Programa
             Console.WriteLine("Equipos suficientes");
         }
 
-        Console.WriteLine($"El promedio de alumnos por computadoras es: {promedio}");
+        Console.WriteLine($"El promedio de alumnos por computadoras es: {promedio:N2}");
 
 
 

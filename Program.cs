@@ -20,10 +20,21 @@ class ConsoleApp1
 
         }
 
-        int total_alumnos = laboratorios.Sum();
+        int total_alumnos = 0;
+        int max_alumnos = 0;
+        int max = 0;
+        
+        for (int f = 0;f < laboratorios.Length;f++)
+        {
+            total_alumnos = total_alumnos + laboratorios[f];
+            while (max < laboratorios[f])
+            {
+                max = max + 1;
+                max_alumnos = max;
+            }
+        }
+        
         Console.WriteLine($"El total de alumnos es: {total_alumnos}");
-
-        int max_alumnos = laboratorios.Max();
         Console.WriteLine($"El laboratorio con mayor cantidad de alumnos es: {max_alumnos}");
         
         int count = 1;

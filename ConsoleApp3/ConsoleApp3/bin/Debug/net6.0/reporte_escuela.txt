@@ -1,0 +1,6 @@
+Piso 1, Lab 1: 10 alumnos
+Piso 1, Lab 2: 11 alumnos
+Piso 1, Lab 3: 12 alumnos
+Piso 2, Lab 1: 20 alumnos
+Piso 2, Lab 2: 21 alumnos
+Piso 2, Lab 3: 22 alumnos

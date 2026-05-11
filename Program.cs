@@ -1,15 +1,12 @@
 ﻿using System;
 using System.IO;
+using System.Xml.Serialization;
+
 class ConsoleApp2
 {
     static void Main()
     {
-        int[,] archivo = new int[5, 5];
-        for (int a = 0; a < archivo.GetLength(0); a++)
-        {
-            for (int b = 0; b < archivo.GetLength(1); b++)
-            {
-                int[,] escuela = new int[2, 3];
+        int[,] escuela = new int[2, 3];
 
                 for (int i = 0; i < escuela.GetLength(0); i++)
                 {
@@ -62,8 +59,19 @@ class ConsoleApp2
                 int suma = escuela[0, 0] + escuela[0, 1] + escuela[0, 2];
                 cantidad = cantidad + suma;
                 Console.WriteLine($"En el primer piso son {cantidad} alumnos.");
+
+        
+        
+        for (int a = 0; a < escuela.GetLength(0); a++)
+        {
+            for (int b = 0; b < escuela.GetLength(1); b++)
+            {
+                string archivo = $"Piso {a + 1}, Lab {b + 1}: {escuela[a, b]} alumnos";
+                File.WriteAllText("reporte_escuela.txt", archivo);
+                Console.WriteLine("Datos guardados con éxito en el disco");
             }
         }
-        File.WriteAllText("reporte.txt", archivo);
+        
+        
     }
 }

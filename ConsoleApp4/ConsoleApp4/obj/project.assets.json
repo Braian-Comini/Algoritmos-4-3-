@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Redes-04\\Downloads\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectUniqueName": "C:\\Users\\Redes-04\\Downloads\\Algoritmos-4-3--Actividad-4\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
       "projectName": "ConsoleApp4",
-      "projectPath": "C:\\Users\\Redes-04\\Downloads\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectPath": "C:\\Users\\Redes-04\\Downloads\\Algoritmos-4-3--Actividad-4\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
       "packagesPath": "C:\\Users\\Redes-04\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Redes-04\\Downloads\\ConsoleApp4\\ConsoleApp4\\obj\\",
+      "outputPath": "C:\\Users\\Redes-04\\Downloads\\Algoritmos-4-3--Actividad-4\\ConsoleApp4\\ConsoleApp4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Redes-04\\AppData\\Roaming\\NuGet\\NuGet.Config",
